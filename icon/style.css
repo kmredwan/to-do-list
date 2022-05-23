@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');      
+
+.wapper{
+    width: 544px;
+    height: auto;
+    margin: 0 auto;
+    background: #ddd;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 19px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.inputWapper {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+
+img {
+    width: 100%;
+    padding-bottom: 31px;
+}
+
+input#Calcius {
+    outline: none;
+    width: 98%;;
+    height: 32px;
+    padding: 5px;
+    border: 0.01px solid gold;
+}
+
+button.pluse {
+    width: 100%;
+    background: black;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px 24px;
+    font-size: 21px;
+    /* margin: 0 auto; */
+    transition: all 3s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+}
+
+button.pluse:hover {
+    /* width: 98%; */
+    background: white ;
+    color: black;
+    outline: none;
+    border: 1px solid black;
+    /* padding: 10px 24px;
+    font-size: 21px; */
+    /* margin: 0 auto; */
+    cursor:pointer
+}
+
+
+.plus_button {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.todo > ul > li {
+    list-style: none;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 7px 0px;
+    background: white;
+    text-align: justify;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 90%;
+    cursor:pointer
+
+   
+}
+
+span{
+     max-width: 90%;
+     word-wrap: break-word;
+     cursor: pointer;
+     
+  
+}
+
+.compladetodo::after{
+content: "";
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+ background:rgba(0, 128, 0, 0.514); 
+ cursor: pointer;
+ /* z-index: ; */
+ 
+
+
+
+}
+
+.icon {
+    margin-left: 23px;
+    z-index: 77;
+}
+i.fas.fa-trash {
+    color: #e20e0ec4;
+}
